@@ -28,3 +28,9 @@ git status
 git add fine_name  ( To stage a single file)
 
 git add .  ( To stage all file at once)
+
+## Commit changes of stageing
+git commit  ( by commit chnages will not reflect in github UI, so also have to push)
+
+## push 
+git push origin main
