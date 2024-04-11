@@ -25,7 +25,7 @@ git status
 4. unmodified
 
 ## Stage changes of untracked or modfied changes
-git add fine_name  ( To stage a single file)
+git add file_name  ( To stage a single file)
 
 git add .  ( To stage all file at once)
 
