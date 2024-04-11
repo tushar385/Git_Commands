@@ -1,4 +1,4 @@
-# Git_commands
+# Git Commands
 
 ## Installation
 sudo apt install git
