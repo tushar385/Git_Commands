@@ -16,6 +16,7 @@ git config --list
 git clone https://github.com/abc123/git_project.git
 
 ------------------------------------------------------------------------------------------------------------------
+# Git add, commit, push command
 
 ## To check any changes made in your local system
 git status
@@ -38,6 +39,7 @@ git commit -m "message" ( by commit chnages will not reflect in github UI, so al
 git push origin main
 
 ------------------------------------------------------------------------------------------------------------------
+# Git Initiallisation commands
 
 ## To check if the current folder is a git connected folder or not
 ls -a  (it will have a .git file)
@@ -52,6 +54,7 @@ git remote add origin https://github.com/abc123/git_project2.git
 git remote -v
 
 ------------------------------------------------------------------------------------------------------------------
+# Git commands for working with branches
 
 ## Check current branch name
 git branch
@@ -75,6 +78,7 @@ git merge tushar_branch2
 git pull origin tushar_branch
 
 ------------------------------------------------------------------------------------------------------------------
+# Git rollback commands
 
 ## logs
 git log
