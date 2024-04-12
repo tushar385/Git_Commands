@@ -37,3 +37,6 @@ git push origin main
 
 ## to check if the current folder is a git connected folder or not
 ls -a  (it will have a .git file)
+
+## to initialize current folder as a git folder
+git init
