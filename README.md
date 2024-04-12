@@ -39,7 +39,7 @@ git commit -m "message" ( by commit chnages will not reflect in github UI, so al
 git push origin main
 
 ------------------------------------------------------------------------------------------------------------------
-# Git Initiallisation commands
+# Git Initialization commands
 
 ## To check if the current folder is a git connected folder or not
 ls -a  (it will have a .git file)
