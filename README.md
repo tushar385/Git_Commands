@@ -32,11 +32,17 @@ git add .  ( To stage all file at once)
 ## Commit changes of stageing
 git commit -m "message" ( by commit chnages will not reflect in github UI, so also have to push)
 
-## push 
+## Push 
 git push origin main
 
-## to check if the current folder is a git connected folder or not
+## To check if the current folder is a git connected folder or not
 ls -a  (it will have a .git file)
 
-## to initialize current folder as a git folder
+## To initialize current folder as a git folder
 git init
+
+## To connect cwd with github repository
+git remote add origin https://github.com/abc123/git_project2.git
+
+## To verify cwd is connected to which github repository
+git remote -v
