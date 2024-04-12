@@ -68,4 +68,28 @@ git checkout tushar_branch
 ## To check code difference between 2 branches
 git diff tushar_branch
 
-## To 
+## To merge current branch with other branch (add other branch code in current branch)
+git merge tushar_branch2
+
+## To pull changes made by other in github on your branch (streamline changes of others code in your local system)
+git pull origin tushar_branch
+
+------------------------------------------------------------------------------------------------------------------
+
+## logs
+git log
+
+# Undoing changes
+
+## Staged changes ( when we do git add .)
+git reset file_name  ( To reset a single file)
+
+git reset ( To reset a all file)
+
+## commited changes ( when we do git commit -m 'message'
+git reset Head~1
+
+## commited changes ( rollback to multiple commit's)
+git reset commit_hash  (hash code to be obtained from git log)
+
+git reset --hard commit_hash ( to rollback commit & rollback code in vs code also)
