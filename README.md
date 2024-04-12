@@ -35,6 +35,8 @@ git commit -m "message" ( by commit chnages will not reflect in github UI, so al
 ## Push 
 git push origin main
 
+------------------------------------------------------------------------------------------------------------------
+
 ## To check if the current folder is a git connected folder or not
 ls -a  (it will have a .git file)
 
