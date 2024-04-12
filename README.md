@@ -15,6 +15,8 @@ git config --list
 ## clone git repository to your local system
 git clone https://github.com/abc123/git_project.git
 
+------------------------------------------------------------------------------------------------------------------
+
 ## To check any changes made in your local system
 git status
 
@@ -49,9 +51,21 @@ git remote add origin https://github.com/abc123/git_project2.git
 ## To verify cwd is connected to which github repository
 git remote -v
 
+------------------------------------------------------------------------------------------------------------------
+
 ## Check current branch name
 git branch
 
 ## Rename Branch
 git branch -M tushar_branch
 
+## Make new branch
+git checkout -b tushar_branch2
+
+## To switch between branch
+git checkout tushar_branch
+
+## To check code difference between 2 branches
+git diff tushar_branch
+
+## To 
