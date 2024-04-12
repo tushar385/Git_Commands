@@ -43,6 +43,8 @@ ls -a  (it will have a .git file)
 ## To initialize current folder as a git folder
 git init
 
+## Check current branch name
+git branch
 ## To connect cwd with github repository
 git remote add origin https://github.com/abc123/git_project2.git
 
