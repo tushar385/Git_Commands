@@ -50,6 +50,9 @@ git init
 ## To connect cwd with github repository
 git remote add origin https://github.com/abc123/git_project2.git
 
+## To delete cwd connection with github repository
+git remote rm origin
+
 ## To verify cwd is connected to which github repository
 git remote -v
 
