@@ -51,6 +51,9 @@ ls -a  (it will have a .git file)
 ## To initialize current folder as a git folder
 git init
 
+## To un-initialize current folder as a git folder
+rm -rf .git
+
 ## To connect cwd with github repository
 git remote add origin https://github.com/abc123/git_project2.git
 
