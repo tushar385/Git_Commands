@@ -15,6 +15,10 @@ git config --list
 ## clone git repository to your local system
 git clone https://github.com/abc123/git_project.git
 
+## Clone specific branch to local system
+git clone -b branch1 https://github.com/abc123/git_project.git
+
+
 ------------------------------------------------------------------------------------------------------------------
 # Git add, commit, push command
 
