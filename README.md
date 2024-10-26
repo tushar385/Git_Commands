@@ -107,3 +107,6 @@ git reset Head~1
 git reset commit_hash  (hash code to be obtained from git log)
 
 git reset --hard commit_hash ( to rollback commit & rollback code in vs code also)
+
+## Rollback code to last pull in local 
+git stash
