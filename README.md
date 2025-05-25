@@ -45,7 +45,7 @@ git commit -m "message" ( by commit chnages will not reflect in github UI, so al
 git push origin main
 
 ## Push (private repo)
-git push https://abc123:pass_1234y@github.com/Tushar-tp/vertical_insights_keyword_agent.git
+git push https://abc123:pass_1234y@github.com/git_project.git
 
 ------------------------------------------------------------------------------------------------------------------
 # Git Initialization commands
