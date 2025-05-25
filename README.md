@@ -18,6 +18,8 @@ git clone https://github.com/abc123/git_project.git
 ## Clone specific branch to local system
 git clone -b branch1 https://github.com/abc123/git_project.git
 
+## Connect to existing repository
+git remote add origin https://github.com/abc123/git_project.git
 
 ------------------------------------------------------------------------------------------------------------------
 # Git add, commit, push command
@@ -39,8 +41,11 @@ git add .  ( To stage all file at once)
 ## Commit changes of stageing
 git commit -m "message" ( by commit chnages will not reflect in github UI, so also have to push)
 
-## Push 
+## Push (public repo)
 git push origin main
+
+## Push (private repo)
+git push https://abc123:pass_1234y@github.com/Tushar-tp/vertical_insights_keyword_agent.git
 
 ------------------------------------------------------------------------------------------------------------------
 # Git Initialization commands
